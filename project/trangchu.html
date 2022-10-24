@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Báo Y Tế</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="trangchu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+  #user {
+    color: red;
+  }
+</style>
+
+<body onload="account()">
+
+  <div class="container">
+
+    <div class="header">
+      <div>
+        <img width="80px"
+          src=" https://inhoangkien.vn/wp-content/uploads/2020/04/Logo-B%E1%BB%99-Y-t%E1%BA%BF-01-e1585994422207-300x213.png            "
+          alt="">
+      </div>
+      <div>
+        <h1 class="tieude"> CỔNG THÔNG TIN Y TẾ ĐIỆN TỬ QUỐC GIA</h1>
+      </div>
+      <div>
+        <img
+          src="https://inhoangkien.vn/wp-content/uploads/2020/04/Logo-B%E1%BB%99-Y-t%E1%BA%BF-01-e1585994422207-300x213.png"
+          width="80px" alt=""> <br>
+      </div>
+    </div>
+    <!-- them gi thi them -->
+    <!-- menu -->
+    <div class="list-title">
+      <ul class="nav">
+        <li><a href="#">Trang chủ</a></li>
+        <li>
+          <a href="#gioithieu">Giới Thiệu</a>
+
+        </li>
+        <li>
+          <a href="#">Trang Tin</a>
+          <ul class="sub-menu">
+            <li><a href="#tinmoi">Tin Mới</a> </li>
+            <li><a href="#tinhot">Tin Hot</a></li>
+            <li><a href="#tintrongngay">Tin Trong Ngày</a></li>
+            <li><a href="#tintrongtuan">Tin Trong Tuần</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#hotline">Liên hệ</a></li>
+        <li>
+          <a href="#">Thông tin tài khoản</a>
+          <ul class="sub-menu">
+
+            <li id="user"> </li>
+            <li><a href="./index.html">Đăng Xuất</a></li>
+            <li><a href="./feedback.html">Gửi Phản Hồi</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="date">
+      <div class="date-time" id="dateTime"> VIETNAM,25 ngày/10 tháng/2022 năm.</div>
+      <div class="search">
+        <input class="timkiem" type="text" placeholder="Tìm Kiếm">
+
+        <button class="tim" style="background-color:rgb(32, 82, 156) ;color: white;">
+          Tìm
+        </button>
+      </div>
+    </div>
+    <div class="mama">
+
+
+      <div class="image-slider">
+        <div class=" image-item">
+          <div class="image">
+            <img width="550px"
+              src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/10/20/chi-huong-20-1666239632421751368869.jpg"
+              alt="">
+          </div>
+          <h4>Thứ Trưởng bộ y tế:Tăng cường phòng chống dịch</h4>
+        </div>
+        <div class=" image-item">
+          <div class="image">
+
+            <img width="550px"
+              src="https://moh.gov.vn/documents/174521/1378211/20.10.2022+TT+%C4%90XT+phat+bieu+1.jpg/d8ba9d1a-70b5-47f5-89f5-19e69c2c140c?t=1666267870775"
+              class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+          </div>
+          <h4 width="550px">Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên dự hội nghị khoa học kiểm nghiệm thực phẩm 2022</h4>
+        </div>
+        <div class=" image-item">
+          <div class="image">
+            <img width="550px"
+              src="https://suckhoedoisong.qltns.mediacdn.vn/thumb_w/640/324455921873985536/2022/10/20/khai-mac-16662385778361886683941.jpg"
+              alt="">
+          </div>
+          <h4 width="550px">Thủ tướng: 'Chủ động ứng phó hiệu quả với dịch COVID-19 và các dịch bệnh khác có thể xảy ra'
+          </h4>
+        </div>
+        <div class=" image-item">
+          <div class="image">
+            <img width="550px"
+              src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/10/19/chi-lien-huong19-16661669654781537618792.jpg"
+              alt="">
+          </div>
+          <h4>Thứ trưởng Bộ Y tế: Bệnh về răng miệng gây hậu quả ở nhiều mức độ khác nhau đối với sức khoẻ
+          </h4>
+        </div>
+        <div class=" image-item">
+          <div class="image">
+            <img width="550px"
+              src="https://moh.gov.vn/documents/174521/1388291/18.10.2022+Quyen+BT+v%C3%A0+TT+Thuan+1.jpg/8aecac88-c9a3-4dc7-ae9c-0ccca787c27a?t=1666154389901"
+              alt="">
+          </div>
+          <h4 width="550px">Quyền Bộ trưởng Bộ Y tế Đào Hồng Lan tiếp Bộ trưởng-Thủ hiến Chính phủ Cộng đồng người Bỉ
+            nói tiếng Pháp
+          </h4>
+        </div>
+        <div class=" image-item">
+          <div class="image">
+            <img width="550px"
+              src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/8/5/cap-cuu-tram-cam-2-16596566084241452641119.jpeg"
+              alt="">
+          </div>
+          <h4 width="550px">Bão lũ còn diễn biến khó lường, Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+            chống dịch
+          </h4>
+        </div>
+      </div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+      <div class="learn2">
+        <h3>BẢN TIN</h3>
+        <li> Tổng Bí thư Nguyễn Phú Trọng: Phát triển kinh tế vùng Tây Nguyên nhanh, bền vững hơn, tốc độ phát triển
+          
+        </li>
+        <hr>
+        <li style="margin-top: 8px;">Quyền Bộ trưởng Bộ Y tế: Từ năm 2026 sẽ có vaccine tiêm phòng ung thư cổ tử
+          cung
+          miễn phí cho trẻ em gái</li>
+        <hr>
+        <li style="margin-top: 8px;">Bộ Y tế điều động bổ nhiệm Viện trưởng Viện Sốt rét-Ký sinh trùng-Côn trùng
+          Trung
+          ương Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+          
+          </h4>
+        </li>
+        <hr>
+        <li style="margin-top: 8px;">Thứ trưởng Bộ Y tế dự lễ kỷ niệm 55 năm ngày thành lập Bệnh viện E Chủ động ứng phó
+          hiệu quả với dịch COVID-19 và các dịch bệnh khác có thể</li>
+        <hr>
+        <li style="margin-top: 8px;">Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Bộ Y tế
+          yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+          chống dịch
+          </h4>
+          </li>
+        <hr>
+        <li style="margin-top: 8px;">Bộ Y tế điều động bổ nhiệm Viện trưởng Viện Sốt rét-Ký sinh trùng-Côn trùng
+          Trung
+          ương Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+          
+          </h4>
+        </li>
+        <hr>
+        <li style="margin-top:8px ;">Bộ Y tế điều động bổ nhiệm Viện trưởng Viện Sốt rét-Ký sinh trùng-Côn trùng
+          Các Cấp Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+          
+          </h4>
+        </li>
+        <hr>
+
+      </div>
+      <!-- <div class="learn3">
+        <img width="100%" height="500px"
+          src="https://moh.gov.vn/documents/20182/192112/300209890_10160749121429311_7490716479270938984_n-1--9041963608825414.jpg"
+          alt="">
+      </div> -->
+    </div>
+    <!-- dong nhan dan -->
+    <div class="nhandan">
+      <div class="nhandan1">
+        <img id="hotline"
+          src="https://moh.gov.vn/documents/20182/192112/%C4%91%C6%B0%E1%BB%9Dng-d%C3%A2y-n%C3%B3ng-ng%C3%A0nh-y-t%E1%BA%BF--4045776418305572.png"
+          alt="">
+      </div>
+      <div class="nhandan2">
+        <img id="nhandan2"
+          src="https://moh.gov.vn/documents/20182/192112/12-02-2020-banner-ph%C3%B2ng-ch%E1%BB%91ng-covid-19--950651508062187.jpg"
+          alt="">
+      </div>
+      <!-- <div class="nhandan3">
+        <img width="300px"
+          src="https://moh.gov.vn/documents/20182/192112/04-11-2021-logo-c%C3%B4ng-b%E1%BB%91-c%E1%BA%A5p-%C4%91%E1%BB%99-d%E1%BB%8Bch-v%C3%B9ng-d%E1%BB%8Bch-covid-19-theo-nq-128-1--7267026061082335.jpg"
+          alt="">
+      </div> -->
+    </div>
+    <div class="number1">
+      <!-- otinttuc1 -->
+      <div class="tintuc1">
+        <div class="otintuc1">
+          <h3 class="tieude1" id="tinmoi"> TIN MỚI</h3>
+          <div class="anhchuthich1">
+            <img width="450px" height="280px"
+              src="https://moh.gov.vn/image/journal/article?img_id=1387614&t=1666054266923" alt="">
+            <p width="70px" class="chuthich1">Quyền Bộ trưởng Bộ Y tế: Từ năm 2026 sẽ có vaccine tiêm phòng ung
+              thư cổ
+              tử
+              cung miễn phí cho trẻ em gái Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+              </h4>
+            </p>
+          </div>
+          <hr>
+          <div class="noidung1">
+            <ul>Bộ Y tế điều động bổ nhiệm Viện trưởng Viện Sốt rét-Ký sinh trùng-Côn trùng Trung ương quốc gia Bộ Y tế
+              yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+            <ul>Thứ trưởng Bộ Y tế dự lễ kỷ niệm 55 năm ngày thành lập Bệnh viện E Các Cấp Các Ngành trung ương Quyền Bộ
+              trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành</ul>
+            <hr>
+            <ul>Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành Quyền Bộ
+              trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+            </ul>
+            <hr>
+            <ul>Thứ trưởng Bộ Y tế dự lễ khai giảng Trường Cao đẳng Y tế và Thiết bị Việt - Đức xuất sắc Bộ Y tế yêu cầu
+              cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <!-- otintuc2 -->
+        <div class="otintuc2">
+          <h3 class="tieude2" id="tinhot">TIN HOT</h3>
+          <div class="anhchuthich2">
+            <img width="450px" height="280px" src="https://moh.gov.vn/image/journal/article?img_id=1384447" alt="">
+
+            <p class="chuthich2">Công điện của Bộ Y tế triển khai công tác y tế chủ động ứng phó với
+              mưa lũ Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+              </h4>
+              </h4>
+            </p>
+          </div>
+          <hr>
+          <div class="noidung2">
+            <ul>Công văn khẩn tăng cường phòng chống bệnh Đậu mùa khỉ đặc biệt nguy cấp gây hại tới cộng đồng Quyền Bộ
+              trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành</ul>
+            <hr>
+            <ul>Tăng cường công tác phòng chống bệnh dại đến cho người dân và cộng đồng trên toàn quốc Bộ Y tế yêu cầu
+              cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+            <ul>Bão lũ còn diễn biến khó lường, Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng chống
+              dịch Bộ Y tế
+              yêu cầu trực cấp cứu 24/24h, duy trì chống dịch COVID-19, sốt xuất huyết ứng phó siêu bão Noru Bộ Y tế yêu
+              cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+            <ul>Bộ Y tế yêu cầu trực cấp cứu 24/24h, duy trì chống dịch COVID-19, sốt xuất huyết ứng phó siêu bão Noru
+              Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+
+            </ul>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tin tuc 2 -->
+    <div class="tintuc2">
+      <div class="number2">
+        <div class="otintuc3">
+          <h3 class="tieude3" id="tintrongngay"> TIN TRONG NGÀY </h3>
+          <div class="anhchuthich3">
+            <img width="450px" height="280"
+              src="https://suckhoedoisong.qltns.mediacdn.vn/324455921873985536/2022/10/18/camoi18-16660893796751740952222.jpeg"
+              alt="">
+            <p width="50px" class="chuthich3">Ngày 25/10: Có 622 ca COVID-19 mới, 1 bệnh nhân tại Bình Thuận tử
+              vong Sốt xuất huyết chưa có dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+              vong Sốt xuất huyết chưa có dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+            </p>
+          </div>
+          <hr>
+          <!-- ô tin tức 3 -->
+          <div class="noidung3">
+            <ul>Thông báo mời đơn vị thẩm định giá tài sản thanh lý cơ quan Bộ Y tế ban hành chính sách giải quyết chặt
+              chẽ Bộ Y tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+            <ul>Sáng 17/10: Số mắc mới COVID-19, F0 nặng đều giảm; Singapore đối mặt với làn sóng lây nhiễm do biến thể
+              phụ XBB Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+
+            </ul>
+            <hr>
+            <ul>Ngày 17/10: Ca COVID-19 mới tăng lên 673, có 2 F0 tại Bình Thuận và Tây Ninh tử vong,Hồ Chí Minh 5 ca
+              chủng mới</ul>
+            <hr>
+            <ul>Bản tin phòng chống dịch COVID-19 ngày 25/10 của Bộ Y tế có phần chuyển biến rõ rệt trên toàn quốc Bộ Y
+              tế yêu cầu cung ứng đủ thuốc chữa bệnh, duy trì phòng
+              chống dịch
+              </h4>
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <!-- o tin tuc 4 -->
+        <div class="otintuc4">
+          <h3 class="tieude4" id="tintrongtuan">TIN TRONG TUẦN</h3>
+          <div class="anhchuthich4">
+            <img width="450px" height="280px" src="https://moh.gov.vn/image/journal/article?img_id=1389454" alt="">
+            <p class="chuthich4" width="50px">Quảng Ninh: Nguy cơ bùng phát dịch sốt xuất huyết Sốt xuất huyết chưa có
+              dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiệnSốt xuất huyết chưa có dấu hiệu giảm,có
+              dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+              Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành Quyền Bộ
+              trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+            </p>
+          </div>
+          <hr>
+          <div class="noidung4">
+            <ul>Hải Phòng: Sốt xuất huyết chưa có dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+              tại Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành</ul>
+            <hr>
+            <ul>Thầy thuốc hiến máu cứu người sau lũ,rất hiếm những người như thế này trong cuộc sống hiện tại vô cùng
+              cần thiết Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+            </ul>
+            <hr>
+            <ul>Lợi ích nhiều mặt của xét nghiệm HIV/AIDS với đối tượng nguy cơ, tăng cường phòng lây nhiễm trên diện
+              rộng Sốt xuất huyết chưa có dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+
+            </ul>
+            <hr>
+            <ul>Bệnh cúm gia tăng, chuyên gia khuyến cáo xét nghiệm là không cần thiết và biện pháp phòng tránh tuyên
+              truyền với toàn dân
+            </ul>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notfile">
+      <h3 class="tth" width="200px">TIN KHÁC</h3>
+      <div id="notline">
+        <div class="ok"> <img width="240px" height="160px" src="https://moh.gov.vn/image/journal/article?img_id=1389081"
+            alt="">
+          <p>Ngày 18/10: Có 622 ca COVID-19 mới, 1 bệnh nhân tại Bình Thuận tử vong Sốt xuất huyết chưa có dấu hiệu
+            giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+          </p>
+        </div>
+        <div class="ok"> <img width="240px"
+            src="https://moh.gov.vn/image/journal/article?img_id=1388005&t=1666162275026" alt="">
+          <p>Thông báo mời đơn vị thẩm định giá tài sản thanh lý cơ quan Bộ Y tế Sốt xuất huyết chưa có dấu hiệu giảm,có
+            dấu hiệu tăng vô cùng phức tạp với tình trạng hiện</p>
+        </div>
+        <div class="ok"> <img width="240px" height="160px"
+            src="https://moh.gov.vn/image/journal/article?img_id=1387704&t=1666162261302" alt="">
+          <p>Sáng 17/10: Số mắc mới COVID-19, F0 nặng đều giảm; Singapore đối mặt với làn sóng lây nhiễm do biến Sốt
+            xuất huyết chưa có dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+            thể phụ
+            XBB</p>
+        </div>
+        <div class="ok"> <img width="240px" height="160px"
+            src="https://moh.gov.vn/image/journal/article?img_id=1387904&t=1666162261356" alt="">
+          <p>Ngày 17/10: Ca COVID-19 mới tăng lên 673, có 2 F0 tại Bình Thuận và Tây Ninh tử vong Sốt xuất huyết chưa có
+            dấu hiệu giảm,có dấu hiệu tăng vô cùng phức tạp với tình trạng hiện
+          </p>
+        </div>
+      </div>
+      <!-- table -->
+      <table class="table_infomation" id="gioithieu">
+        <tr class="tieudelon">
+          <th>TỔNG QUAN</th>
+          <th class="info">LỊCH SỬ HÌNH THÀNH</th>
+          <th class="info1">CHỨC NĂNG NHIỆM VỤ</th>
+
+        </tr>
+        <tbody>
+          <tr class="newid">
+            <h3>GIỚI THIỆU</h3>
+            <td width="33%" style="text-align: justify ;"> Bộ Y tế Việt Nam là cơ quan của Chính phủ Việt Nam,
+              thực hiện
+              chức năng quản lý Nhà nước về chăm sóc và bảo vệ sức khỏe nhân dân, bao gồm các lĩnh vực: y tế dự
+              phòng,
+              khám, chữa bệnh, phục hồi chức năng, y học cổ truyền, thuốc phòng chữa bệnh cho người, mỹ phẩm ảnh
+              hưởng
+              đến sức khỏe con người, an toàn vệ sinh thực phẩm và trang thiết bị y tế; quản lý Nhà nước các dịch
+              vụ
+              công thuộc các lĩnh vực quản lý của Bộ và thực hiện đại diện chủ sở hữu phần vốn của Nhà nước tại
+              doanh
+              nghiệp có vốn Nhà nước thuộc Bộ quản lý theo quy định của pháp luật. Quyền Bộ trưởng Đào Hồng Lan tiếp
+              Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại
+              diện Tổ chức Y tế Thế giới tại Việt Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức
+              Y tế Thế giới tại Việt Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế
+              giới tại Việt Nam ban hành</td>
+            <td class="info" style="text-align: justify ;padding-left: 20px">Bộ Y tế là 1 trong 13 Bộ đầu tiên của
+              Chính
+              phủ Cách mạng lâm thời Việt Nam Dân chủ Cộng hòa, thành lập vào ngày 28 tháng 8 năm 1945, ra mắt
+              nhân dân
+              lần đầu vào ngày 2 tháng 9 năm 1945. Bộ trưởng đầu tiên là bác sĩ Phạm Ngọc Thạch.
+
+              Ngày 2 tháng 3 năm 1946, Chính phủ Liên hiệp Kháng chiến cho hợp nhất Bộ Y tế, Bộ Lao động và Bộ Cứu
+              tế Xã
+              hội thành Bộ Xã hội kiêm Y tế, Cứu tế và Lao động, Bộ trưởng là Trương Đình Tri. Nhưng đến ngày 3
+              tháng 11
+              năm 1946 thì tách ra thành Bộ Y tế như cũ trong Chính phủ Liên hiệp Quốc dân, Bộ trưởng là Hoàng
+              Tích Trý.
+              Bộ Y tế giữ nguyên từ đó đến hiện nay. Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế
+              giới tại Việt Nam ban hànhQuyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt
+              Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành
+              Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban hành</td>
+            <td style="text-align: justify ;padding-left: 20px ;">Bộ Y tế là cơ quan của Chính phủ, thực hiện chức
+              năng
+              quản lý nhà nước về chăm sóc và bảo vệ sức khỏe nhân dân, bao gồm các lĩnh vực: y tế dự phòng, khám,
+              chữa
+              bệnh, phục hồi chức năng, y học cổ truyền, thuốc phòng chữa bệnh cho người, mỹ phẩm ảnh hưởng đến
+              sức khỏe
+              con người, an toàn vệ sinh thực phẩm và trang thiết bị y tế; quản lý nhà nước các dịch vụ công thuộc
+              các
+              lĩnh vực quản lý của Bộ và thực hiện đại diện chủ sở hữu phần vốn của Nhà nước tại doanh nghiệp có
+              vốn nhà
+              nước thuộc Bộ quản lý theo quy định của pháp luật . Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ
+              chức Y tế Thế giới tại Việt Nam ban hànhQuyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế
+              giới tại Việt Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại
+              Việt Nam ban hành Quyền Bộ trưởng Đào Hồng Lan tiếp Trưởng đại diện Tổ chức Y tế Thế giới tại Việt Nam ban
+              hành
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+    </div>
+    <footer>
+      <!-- chantrang -->
+      <div class="chantrang">
+        <div class="chantrang1">
+
+          <li> <a href="/index.html">Trang Chủ</a> </li>
+          <!-- <li> <a href="#hotline">Liên Hệ</a> </li> -->
+        </div>
+
+        <div class="chantrang2">
+          <div class="ochan1">
+            <p>Cổng thông tin điện tử Bộ Y Tế (MOH)</p>
+            <p>Bản quyền thuộc Bộ Y Tế(s )</p>
+            <p>Số 138A Giảng Võ - Ba Đình - Hà Nội</p>
+            <p> ĐT: 0246.273.2.273 |Fax:0243.8464.05J</p>
+          </div>
+          <div class="ochan2">
+            <p>Email:Qanbientap@moh.gov.vn</p>
+            <p>Ghi rõ nguồn Cổng thông tin điện tử Bộ Y tế hoặc http://moh.gov.vn khi phát hành lại thông tin</p>
+            <p>ĐT: 0246.273.2.27K |Fax:0243.8464.05A</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+</body>
+<script>
+  // show GIỜ 
+  function realtime() {
+    let today = new Date();
+    let date = "Hà Nội: " + "  " + today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear() +
+      "-" + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    console.log("data", date);
+    let dateTime = document.getElementById("dateTime");
+    dateTime.innerHTML = date;
+  }
+  setInterval(() => {
+    realtime();
+  }, 0)
+  // SHOW USER 
+  function showUser() {
+    let index = JSON.parse(localStorage.getItem("index"));
+    let listUser = JSON.parse(localStorage.getItem("information"));
+    let nameUser = listUser[index].username;
+    let user = document.getElementById("user");
+    user.innerHTML = nameUser;
+
+  }
+  showUser();
+</script>
+<script src="trangchu.js"></script>
+
+</html>
